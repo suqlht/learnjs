@@ -29,7 +29,7 @@ var server = http.createServer(function(req, res){
         case '/':
           work.show(db, res);
           break;
-        case '/archive':
+        case '/archived':
           work.showArchived(db, res);
           break;
       }
